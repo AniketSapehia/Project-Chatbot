@@ -1,0 +1,6 @@
+flask
+requests
+scikit-learn
+pandas
+nltk
+open router API
