@@ -7,6 +7,8 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.naive_bayes import MultinomialNB
 from sklearn.pipeline import make_pipeline
 
+
+
 # Download NLTK data
 nltk.download('punkt')
 
@@ -17,7 +19,6 @@ HEADERS = {
     "Authorization": f"Bearer {OPENROUTER_API_KEY}",
     "Content-Type": "application/json"
 }
-
 # Initialize Flask app
 app = Flask(__name__)
 
